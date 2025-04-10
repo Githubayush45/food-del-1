@@ -1,0 +1,23 @@
+# Handle line endings automatically for text files
+* text=auto
+
+# Explicitly declare text files that should always have LF endings
+*.js text eol=lf
+*.jsx text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+
+# Declare files that should retain CRLF line endings
+*.cmd text eol=crlf
+*.bat text eol=crlf
+
+# Binary files that shouldn't be modified
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.svg binary
